@@ -7,42 +7,54 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Google Scope</title>
-	
-	<!--FavIcon Section-->
+
+  <!--FavIcon Section-->
   <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico" />
-	<!-- <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" /> -->
+  <!-- <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" /> -->
   <!-- <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" /> -->
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="createSearchURL.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="createSearchURL.js"></script>
 </head>
 
 <body>
 
   <!-- CODE HERE-->
   <nav>
-    <!-- <navLeft>
-      <a class="about" href="#About">About</a>
-      <a class="store" href="#Store">Store</a>
-    </navLeft>
-    <navRight>
-      <a class="gmail" href="#Gmail">Gmail</a>
-      <a class="images" href="#Images">Images</a>
-      <span>
-        <button class="signIn"> Sign in </button>
-      </span>
-    </navRight> -->
   </nav>
 
   <aside>
     <div class="buttons">
-      <button class="unselected-keyword">Javascript</button>
-      <button class="unselected-keyword">React</button>
-			<button class="unselected-keyword">Jquery</button>
-      <button class="unselected-keyword">GraphQL</button>
-      <button class="unselected-keyword">Node</button>
 
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button class="unselected-keyword">Javascript</button>
+      </div>
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button class="unselected-keyword">ReactJS</button>
+      </div>
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button class="unselected-keyword">GraphQL</button>
+      </div>
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button class="unselected-keyword">jQuery</button>
+      </div>
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button class="unselected-keyword">NodeJS</button>
+      </div>
+      <div class="button-flex">
+        <i class="fa fa-close"></i>
+        <button>
+          <input placeholder="Enter new term..." class="unselected-keyword"></input>
+        </button>
+
+      </div>
     </div>
 
   </aside>
@@ -65,80 +77,99 @@
       <form class="search">
         <input type="text" name="search-bar" placeholder="Search here...">
       </form>
-		</div>
-      <!-- Buttons & Daily Message -->
-
-			<div class="websites">
-        <div class="site">
-          <!-- <span>
-            <icon>Favicon</icon>
-            <h4>Website Title</h4>
-          </span> -->
-          <button class="site-button unselected-site">
-              <img src="./assets/stack.png" alt="StackOverflow" style="width:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/github.png" alt="GitHub" style="width:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/mdn.png" alt="MDN" style="width:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/medium.png" alt="GitHub" style="width:150px;  height:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/w3.jpeg" alt="w3Schools" style="width:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/youtube.png" alt="YouTube" style="width:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/reddit.png" alt="Reddit" style="width:150px;  height:150px">
-          </button>
-        </div>
-        <div class="site">
-          <button class="site-button unselected-site">
-              <img src="./assets/wiki.png" alt="GitHub" style="width:150px; height: 150px">
-          </button>
-        </div>
+    </div>
+    <!-- Buttons & Daily Message -->
+    <div class="websites">
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/stack.png" alt="StackOverflow">
+        </button>
       </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/github.png" alt="GitHub">
+        </button>
+      </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/mdn.png" alt="MDN">
+        </button>
+      </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/medium.png" alt="GitHub">
+        </button>
+      </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/w3.png" alt="w3Schools">
+        </button>
+      </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/youtube.png" alt="YouTube">
+        </button>
+      </div>
+      <div class="site">
+        <button class="site-button unselected-site">
+          <img src="./assets/reddit.png" alt="Reddit">
+        </button>
+      </div>
+      <div class="site ">
+        <button class="site-button unselected-site ">
+          <img src="./assets/wiki.png " alt="GitHub ">
+        </button>
+      </div>
+      <div class="site">
+        <p class="new-title">Default Title</p>
+        <button class="site-button no-image unselected-site ">
+          <img src="./assets/default.png " alt="Defaul">
+        </button>
+      </div>
+      <div class="site">
+        <p class="new-title">Default Title</p>
+        <button class="site-button no-image unselected-site ">
+          <img src="./assets/default.png " alt="Defaul">
+        </button>
+      </div>
+      <div class="site">
+        <p class="new-title">Default Title</p>
+        <button class="site-button no-image unselected-site ">
+          <img src="./assets/default.png " alt="Defaul">
+        </button>
+      </div>
+      <div class="site">
+        <p class="new-title">Default Title</p>
+        <button class="site-button no-image unselected-site ">
+          <img src="./assets/default.png " alt="Defaul">
+        </button>
+      </div>
+    </div>
 
   </main>
 
   <footer>
     <!-- <footerLeft>
-      <a class="advertising" href="#Advertising">
+      <a class="advertising " href="#Advertising ">
         <span>Advertising</span>
       </a>
-      <a class="business" href="#Business">
+      <a class="business " href="#Business ">
         <span>Business</span>
       </a>
     </footerLeft>
     <footerRight>
-      <a class="privacy" href="#Privacy">
+      <a class="privacy " href="#Privacy ">
         <span>Privacy</span>
       </a>
-      <a class="terms" href="#Terms">
+      <a class="terms " href="#Terms ">
         <span>Terms</span>
       </a>
-      <a class="settings" href="#Settings">
+      <a class="settings " href="#Settings ">
         <span>Settings</span>
       </a>
     </footerRight>
   </footer> -->
-	<script src="override.js"></script>
+    <script src="override.js "></script>
 </body>
 
 </html>
