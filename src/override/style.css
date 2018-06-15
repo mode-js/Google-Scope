@@ -153,10 +153,21 @@ main h4 a {
   color: #525252;
 }
 
+/*
 .websites {
   grid-gap: .5rem;
   display: grid;
-  justify-content: center;
+<<<<<<< HEAD
+=======
+  grid-gap: .2rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 200px);
+} */
+
+.websites {
+  grid-gap: .5rem;
+  display: grid;
+  >>>>>>>34951e0156bc439014b536321277b2999b6b3f55 justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -177,15 +188,17 @@ main h4 a {
 }
 
 .site img {
-  width: 100px;
-  height: 100px;
+  width: 100px !important;
+  height: 100px !important;
 }
 
 .site-button {
   border: none;
 }
 
-.site-button.unselected-site {}
+.site-button.unselected-site {
+  background-color: white;
+}
 
 .site-button.selected-site {
   background-color: green;
